@@ -1,9 +1,14 @@
-1. source ./env/bin/activate
-2. flask --app flaskr init-db
-3. flask --app flaskr run --debug  
+## Blog con Flask
+### Este proyecto sigue la documentación de Flask.
 
-If you want to keep developing your Flaskr project, here are some ideas for what to try next:
+#### Pasos a seguir
+1. python -m venv env
+2. source ./env/bin/activate
+3. pip install -r requirements.txt
+4. flask --app flaskr init-db
+5. flask --app flaskr run --debug 
 
+### Flask da las siguientes ideas para extender el proyecto:
 - A detail view to show a single post. Click a post’s title to go to its page.
 
 - Like / unlike a post.
